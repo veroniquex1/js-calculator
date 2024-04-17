@@ -1,59 +1,8 @@
 *,
-* ::before,
+*::before,
 *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Container styling*/
-.container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*Calculator styling*/
-.calculator{
-    border: solid 2px black;
-    padding: 10px;
-    border-radius: 15px;
-    background-color: rgb(158, 158, 245);
-
-}
-
-.calculator form input{
-    border: solid 1px black;
-    border-radius: 5px;
-    height: 50px;
-    width: 50px;
-    background-color: rgb(191, 142, 236);
-    font-weight: bold;
-    font-size: 17px;
-    margin: 2px;
-
-}
-
-/*Display styling*/
-.display{
-    display: flex;
-    justify-content: flex-end;
-    
-}
-
-form input#display{
-    background-color: white;
-}
-
-.display input{
-    text-align: right;
-    flex: 1;
-    
-}
-
-/*operator button styling*/
-form input.operator{
-    background-color: rgb(238, 153, 212);
-}
